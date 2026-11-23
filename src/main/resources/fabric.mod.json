@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mobswaponhit",
+  "version": "${version}",
+  "name": "Mob Swap on Hit",
+  "description": "Swaps positions with mobs or spawns harmless mini-mobs when hitting entities.",
+  "authors": [
+    "srcpolygot-eng"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.srcpolygot.mobswaponhit.MobSwapOnHitMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
